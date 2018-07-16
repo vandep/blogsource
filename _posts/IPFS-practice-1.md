@@ -14,22 +14,22 @@ tags:
 #### 概述
 IPFS的全称是InterPlanetary File System（星际文件系统），从名称上看，这是一个很炫酷、很有野心的项目。简单地说它就是一个点对点的分布式文件系统。[官网](https://ipfs.io)和[github](https://github.com/ipfs)都可以找到所有的相关资料。建议从它的[白皮书](https://github.com/ipfs/ipfs/blob/master/papers/ipfs-cap2pfs/ipfs-p2p-file-system.pdf?raw=true)，和[直译中文版本](http://210.73.213.194:8080/ipfs/QmVTb5CkppwVdRQZnevNYTnQV95tmZAMoZFasDLtxqZn1i)开始了解，后面我们会慢慢地认识它。白皮书上指出了多个应用场景：
 > 1. As a mounted global filesystem, under /ipfs and /ipns.
-2. As a mounted personal sync folder that automatically
+> 2. As a mounted personal sync folder that automatically
 versions, publishes, and backs up any writes.
-3. As an encrypted file or data sharing system.
-4. As a versioned package manager for all software.
-5. As the root filesystem of a Virtual Machine.
-6. As the boot filesystem of a VM (under a hypervisor).
-7. As a database: applications can write directly to the
+> 3. As an encrypted file or data sharing system.
+> 4. As a versioned package manager for all software.
+> 5. As the root filesystem of a Virtual Machine.
+> 6. As the boot filesystem of a VM (under a hypervisor).
+> 7. As a database: applications can write directly to the
 Merkle DAG data model and get all the versioning,
 caching, and distribution IPFS provides.
-8. As a linked (and encrypted) communications platform.
-9. As an integrity checked CDN for large files (without
+> 8. As a linked (and encrypted) communications platform.
+> 9. As an integrity checked CDN for large files (without
 SSL).
-10. As an encrypted CDN.
-11. On webpages, as a web CDN.
-12. As a new Permanent Web where links do not die.
-> 
+> 10. As an encrypted CDN.
+> 11. On webpages, as a web CDN.
+> 12. As a new Permanent Web where links do not die.
+
 
 #### 体验
 我想从第一个应用场景开始，开启我们的应用旅程。

@@ -10,11 +10,22 @@ tags:
 ---
 #### 变量
 
-undefined：表示自然变量的不确定
+null 用于对象, undefined 用于变量，属性和方法。
 
-null：对象类型的不确定
+对象只有被定义才有可能为 null，否则为 undefined。
+
+undefined：表示变量未赋值，未定义的类型
+
+null：用于清空的对象值, 类型是object
+
+
 ```javascript
 <script>
+	var person;//undefined
+	person = {name:"bob", phone:"1344444"};
+	person = null;
+	typeof person;//object
+	person = undefined;//typeof person = undefined
     var h = {name:"lisi", age:29};
     console.log(h.name);
     console.log(h[name]);
@@ -76,6 +87,31 @@ window.screen
 //DOM对象-页面的文档
 window.docment
 
+```
+#### 判断对象
+"john".constructor返回构造函数，如String()  { [native code] }
+
+``` html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+
+<p>判断是否为数组。</p>
+<p id="demo"></p>
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = isArray(fruits);
+function isArray(myArray) {
+    return myArray.constructor.toString().indexOf("Array") > -1;
+}
+</script>
+
+</body>
+</html>
 ```
 #### 变量的作用域
 var是声明一个局部变量
