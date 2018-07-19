@@ -13,11 +13,11 @@ thumbnail: http://210.73.213.194:8080/ipfs/QmWL6dhMvUQs1sh1J5kyMeLnU22ChVgiM2XBT
 上一篇[博客之旅-搭架子](\2018\05\31\blog_journey-1\index.html)中已经将基本的博客搭起来了，默认是这样的
 
 
-![](http://210.73.213.194:8080/ipfs/QmWL6dhMvUQs1sh1J5kyMeLnU22ChVgiM2XBTvxCmsWArN "")
+![hexo默认模板](\res\blog-journey-2\default.PNG)
 
 我们希望它会和默认的有一些不同。这个时候就要利用theme来设置了。还记得上一篇中hexo的目录结构么
 
-![](http://210.73.213.194:8080/ipfs/QmQqKf4Cw6Zw7q3WLnDfC9oqNdhoXJdQA2vbGehgQjLPRh)
+![](\res\blog-joureny-1\list.PNG)
 
 themes目录下有本机所有的theme，默认只有landscape一种，可以在[这个地址](https://hexo.io/themes/)找到你喜欢的模板，比如这个博客挑选的[Hueman主题](https://github.com/ppoffice/hexo-theme-hueman),在[它的文档](https://github.com/ppoffice/hexo-theme-hueman/wiki)可以查看其用法。这里简单说明。
 
@@ -42,7 +42,7 @@ npm install -S hexo-generator-json-content
 #### 修改模板
 1. Menu
 
-![](http://210.73.213.194:8080/ipfs/QmdGe3sS7nj5XqTyojyqAsRhKCUf2847PstHYpqvTqUZds)
+![](\res\blog-journey-2\Menu.PNG)
 
 ```
     Home: /

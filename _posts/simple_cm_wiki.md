@@ -2,11 +2,12 @@
 title: 简单合同管理程序开发记录
 date: 2018-06-25
 categories:
-- 项目
+- 技术
 thumbnail: http://210.73.213.194:8080/ipfs/QmcJzUnLgFGNKq3rpxpXREctpuNAhGeygqZNfHx8rzTzge
 tags: 
 - c-sharp
 - wpf
+- open-source
 ---
 
 最近一个朋友表示，他们公司的合同用Excel管理，多了之后变得很麻烦，让我帮他做个合同管理的小工具，利用最近的闲暇时间，用WPF写了一个小工具。
@@ -14,7 +15,7 @@ tags:
 #### 需求
 微信上简单的聊天，把他一堆不太具象的想法归纳起来，罗列需求，化成思维导图比较清晰了。
 
-![](http://210.73.213.194:8080/ipfs/QmcJzUnLgFGNKq3rpxpXREctpuNAhGeygqZNfHx8rzTzge)
+![](\res\simple-cm\cm_need.PNG)
 
 #### 开发环境
 由于朋友的电脑都使用的windows，所以采用vs2017 + WPF的开发桌面应用是比较方便的选择。

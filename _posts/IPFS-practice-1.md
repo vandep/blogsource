@@ -3,14 +3,14 @@ title: IPFS实践之初体验
 
 date: 2018-06-06 11:05:24
 
-hexo thumbnail: http://210.73.213.194:8080/ipfs/QmeLRbhaxb7gbfX6RDwfQhUCrjZRfeDwfY6P3Q4WC4CoDn
+thumbnail: http://210.73.213.194:8080/ipfs/QmeLRbhaxb7gbfX6RDwfQhUCrjZRfeDwfY6P3Q4WC4CoDn
 categories:
 - 技术
 
 tags: 
 - IPFS
 ---
-![](http://210.73.213.194:8080/ipfs/QmeLRbhaxb7gbfX6RDwfQhUCrjZRfeDwfY6P3Q4WC4CoDn)
+![](\res\ipfs-1\雨后.jpg)
 #### 概述
 IPFS的全称是InterPlanetary File System（星际文件系统），从名称上看，这是一个很炫酷、很有野心的项目。简单地说它就是一个点对点的分布式文件系统。[官网](https://ipfs.io)和[github](https://github.com/ipfs)都可以找到所有的相关资料。建议从它的[白皮书](https://github.com/ipfs/ipfs/blob/master/papers/ipfs-cap2pfs/ipfs-p2p-file-system.pdf?raw=true)，和[直译中文版本](http://210.73.213.194:8080/ipfs/QmVTb5CkppwVdRQZnevNYTnQV95tmZAMoZFasDLtxqZn1i)开始了解，后面我们会慢慢地认识它。白皮书上指出了多个应用场景：
 > 1. As a mounted global filesystem, under /ipfs and /ipns.

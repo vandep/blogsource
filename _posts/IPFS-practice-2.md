@@ -3,7 +3,7 @@ title: IPFS实践之功能封装
 
 date: 2018-06-07 11:05:24
 
-hexo thumbnail: http://210.73.213.194:8080/ipfs/QmYt32dq2xp7TF8BbHs62bMi1d6ai38TEiXsF1WvCsayCE
+thumbnail: http://210.73.213.194:8080/ipfs/QmYt32dq2xp7TF8BbHs62bMi1d6ai38TEiXsF1WvCsayCE
 categories:
 - 技术
 
@@ -11,7 +11,7 @@ tags:
 - IPFS
 - c-sharp
 ---
-![](http://210.73.213.194:8080/ipfs/QmYt32dq2xp7TF8BbHs62bMi1d6ai38TEiXsF1WvCsayCE)
+![](\res\ipfs-2\IMG_1817.JPG)
 在[IPFS实践之初体验](\2018\06\06\IPFS-practice-1\index.html)中以命令行的方式演示了如何使用IPFS的基础命令。然而，如果基于IPFS做二次开发应用程序，就需要对这些功能进行封装。本文介绍两种调用IPFS功能的方式。
 
 #### Cmd

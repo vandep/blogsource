@@ -19,7 +19,7 @@ thumbnail: http://210.73.213.194:8080/ipfs/QmegcHbDSKevGUWeaPfV4scsKhcaURw2PhSTX
 
 计算机网络的初衷就是建立一个相互通信的对等的计算机网络，但是由于历史问题连接在网络的计算机配置不高，计算能力和存储能力不足，因此相当长一段时间我们更倾向于使用基于客户端（client）和服务器（server）的C/S模式及浏览器（Browser）和服务器（server）的B/S模式:
 
-![中心化网络简单示意](http://210.73.213.194:8080/ipfs/QmRutd4AjPkqjsmzW9UbsSVHKaBiTh8Qi78Ln3eTXfktJQ)
+![中心化网络简单示意](\res\p2p-network-1\中心化网络示意.png)
 
 在libp2p的白皮书中，列举了如下选用cs建构的理由：
 > - The bandwidth inside a data center is considerably higher than that available for clients to connect to each other.
@@ -32,7 +32,7 @@ thumbnail: http://210.73.213.194:8080/ipfs/QmegcHbDSKevGUWeaPfV4scsKhcaURw2PhSTX
 简单地概括就是高带宽、低成本、易维护、穿透性强、易开发。
 其实这些理由也只是相对而言，例如低成本，服务器打带宽和电费支出，远高于对等节点的支出。所谓易维护，如果所有服务器宕机的话，这个服务是暂停的。
 
-![P2P简单示意](http://210.73.213.194:8080/ipfs/Qmb7ubfDSuEwnPnddYywT1KnkbCdtQER3zf8aGQj64uPH7)
+![P2P简单示意](\res\p2p-network-1\p2p简单拓扑.png)
 
 当然上图只是简单的示意，具体P2P的网络拓扑远比图示更多样、更复杂。P2P网络中的所有节点都是对等的，各台计算机有相同的功能，无主从之分，一台计算机既可作为服务器，设定共享资源供网络中其他计算机所使用，又可以作为工作站，整个网络一般来说不依赖专用的集中服务器，也没有专用的工作站。网络中的每一台计算机既能充当网络服务的请求者，又对其它计算机的请求做出响应，提供资源、服务和内容。
 
@@ -42,7 +42,7 @@ thumbnail: http://210.73.213.194:8080/ipfs/QmegcHbDSKevGUWeaPfV4scsKhcaURw2PhSTX
 
 之前一直在做局域网的文件传输工具的开发，其实局域网文件传输所需建立的网络，从广泛意义上讲，也是一个P2P的网络，只不过它的情况会比广域网上的P2P要简单的多。
 
-![局域网下的p2p拓扑](http://210.73.213.194:8080/ipfs/QmegcHbDSKevGUWeaPfV4scsKhcaURw2PhSTXbAcSbLy15)
+![局域网下的p2p拓扑](\res\p2p-network-1\局域网下的p2p.png)
 - 无需考虑NAT穿透，因为每个节点都是在同一个网关下
 - 节点彼此发现简单
 - 拓扑简单

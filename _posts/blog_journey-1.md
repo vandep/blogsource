@@ -9,7 +9,7 @@ tags:
 - IPFS
 thumbnail:  http://210.73.213.194:8080/ipfs/QmTcycNzSyERKj3NQckZBZaYUgkN4mJsjuRAzjYrmgdfqQ
 ---
-![](http://210.73.213.194:8080/ipfs/QmTcycNzSyERKj3NQckZBZaYUgkN4mJsjuRAzjYrmgdfqQ "")
+![光影梅花](\res\blog-joureny-1\光影梅花.JPG)
 #### 心血来潮
 最近做了一个利用去中心化存储技术[IPFS](https://ipfs.io/)实现dweb的项目，将个人内容发布到IPFS上，生成个人主页展示。
 于是就有了一个用IPFS托管博客网页的想法，具体做法应该是：
@@ -74,7 +74,7 @@ $ npm install -g hexo-cli
 $ cd <blog path>
 $ hexo init   #初始化hexo
 ```
-![生成的目录结构](http://210.73.213.194:8080/ipfs/QmQqKf4Cw6Zw7q3WLnDfC9oqNdhoXJdQA2vbGehgQjLPRh)
+![生成的目录结构](\res\blog-joureny-1\list.PNG)
 
 其中：
 - node_modules：是依赖包
@@ -148,7 +148,7 @@ $ hexo deploy
 ```
 - 在你的域名服务器上添加一条CNAME
 
-![域名配置](http://210.73.213.194:8080/ipfs/QmPrqLmzhgBFUD2asUzTSRYRreSnWFd4aMBuEDmAuVw6jw)
+![域名配置](\res\blog-joureny-1\DNS.PNG)
 
 ```
 一条主机名为www， value为vandep.github.io，这样允许带www来访问自己的域名
